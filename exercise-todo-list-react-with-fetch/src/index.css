@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem; /* 18px */
+  background-color: #efefef;
+  color: #324047;
+}
+
+html,
+body,
+section {
+  height: 100%;
+}
+
+section {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+div {
+  margin: auto;
+}
+
